@@ -1,0 +1,38 @@
+// 🎨 Variáveis globais
+$cor-destaque: #ffff42;
+$cor-borda-destaque: gold;
+$cor-texto-descricao: gray;
+
+// 🔹 Bloco principal
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1%;
+
+    // 🔹 Elemento
+    &__produto {
+        padding: 8px;
+
+        &-imagem {
+            width: 100%;
+        }
+
+        &-nome {
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        &-descricao {
+            color: $cor-texto-descricao;
+        }
+
+        // 🔹 Modificador
+        &--destaque {
+            border: 2px solid $cor-borda-destaque;
+            background-color: $cor-destaque;
+        }
+    }
+}
