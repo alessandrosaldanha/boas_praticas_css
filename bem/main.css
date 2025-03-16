@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #1e3a8a;
+  background-color: #bdc9ea;
   color: #fff;
   font-family: "Arial", sans-serif;
 }
@@ -23,7 +23,7 @@ h1 {
   align-items: center;
   gap: 20px;
   padding: 20px;
-  background-color: #3b82f6;
+  background-color: #5981c1;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -51,14 +51,14 @@ h1 {
 .products__item-name {
   font-size: 1.2em;
   margin: 10px 0;
-  color: #1e3a8a;
+  color: #566aa2;
 }
 .products__item-description {
   font-size: 0.9em;
   color: #666;
 }
 .products__item--featured {
-  border: 5px solid #1f678c;
+  border: 5px solid #426f85;
   box-shadow: 0 5px 10px rgba(24, 235, 210, 0.2);
   transform: scale(1.05);
 }
